@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Frame - 为照片添加精美边框与水印</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="ambient-light"></div>
+    <div class="ambient-light secondary"></div>
+
+    <main class="bento-grid">
+        
+        <!-- Hero: iOS 版本 (主打) -->
+        <article class="card app-card featured-app">
+            <div class="app-image-showcase hero-showcase">
+                <img src="assets/images/photo_frame_iOS.png" 
+                     alt="Photo Frame iOS App - 照片边框与水印">
+            </div>
+            
+            <div class="app-mini-bar">
+                <div class="app-info">
+                    <div class="app-icon ios-icon">📷</div>
+                    <div>
+                        <h2>Photo Frame</h2>
+                        <p class="short-desc">为照片添加精美边框与专业水印</p>
+                    </div>
+                </div>
+                <div class="app-actions">
+                    <span class="platform-badge">iOS</span>
+                    <a href="#" class="btn-download">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        App Store
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Profile Card -->
+        <div class="card profile-card">
+            <div class="profile-header">
+                <div class="avatar-img">👨‍💻</div>
+                <div>
+                    <h3>Yunlong</h3>
+                    <p class="role">独立开发者</p>
+                </div>
+            </div>
+            <p class="bio-text">
+                专注于打造精致实用的摄影工具。<br>
+                让每一张照片都独具个性。
+            </p>
+            <div class="social-row">
+                <a href="#" class="social-icon" title="Twitter">𝕏</a>
+                <a href="#" class="social-icon" title="GitHub">🐙</a>
+                <a href="#" class="social-icon" title="Email">✉️</a>
+            </div>
+        </div>
+
+        <!-- Mac 版本 -->
+        <article class="card app-card">
+            <div class="app-image-showcase">
+                <img src="assets/images/photo_frame_mac.png" 
+                     alt="Photo Frame macOS App - 照片边框与水印">
+            </div>
+            <div class="app-mini-bar">
+                <div class="app-info">
+                    <div class="app-icon mac-icon">🖥️</div>
+                    <div>
+                        <h3>Photo Frame</h3>
+                        <p class="short-desc">macOS 原生应用，批量处理更高效</p>
+                    </div>
+                </div>
+                <div class="app-actions">
+                    <span class="platform-badge mac">macOS</span>
+                    <a href="#" class="btn-outline">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        Mac App Store
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!-- 功能特性 -->
+        <div class="card info-card features-card">
+            <h4>核心功能</h4>
+            <ul class="feature-list">
+                <li>
+                    <span class="feature-icon">🖼️</span>
+                    <span>多种精美边框模板</span>
+                </li>
+                <li>
+                    <span class="feature-icon">💧</span>
+                    <span>自定义水印文字与位置</span>
+                </li>
+                <li>
+                    <span class="feature-icon">📱</span>
+                    <span>iOS & macOS 双平台同步</span>
+                </li>
+                <li>
+                    <span class="feature-icon">⚡</span>
+                    <span>批量处理，一键导出</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="card info-card tech-card">
+            <h4>技术栈</h4>
+            <div class="tags-cloud">
+                <span>SwiftUI</span>
+                <span>Core Image</span>
+                <span>PhotoKit</span>
+                <span>CloudKit</span>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="card cta-card">
+            <h4>联系合作</h4>
+            <p class="cta-text">有任何问题或建议？欢迎联系我</p>
+            <a href="mailto:hi@example.com" class="btn-text">发送邮件 →</a>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Yunlong. Made with ❤️</p>
+    </footer>
+</body>
+</html>
+
