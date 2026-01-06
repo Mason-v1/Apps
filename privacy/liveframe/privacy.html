@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+            padding: 24px;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid #333333;
+            margin-bottom: 40px;
+        }
+        
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #FFFFFF;
+        }
+        
+        .last-updated {
+            font-size: 14px;
+            color: #999999;
+            margin-top: 8px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            border-left: 4px solid #FFFFFF;
+            padding-left: 16px;
+        }
+        
+        h3 {
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            font-weight: 500;
+            color: #E0E0E0;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: #B0B0B0;
+            font-size: 16px;
+        }
+        
+        ul {
+            margin-bottom: 20px;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #B0B0B0;
+            padding-left: 32px;
+            position: relative;
+        }
+        
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 12px;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+            border-left: 4px solid #FFFFFF;
+            padding: 24px;
+            margin: 24px 0;
+            border-radius: 8px;
+            border: 1px solid #333333;
+        }
+        
+        .highlight-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .highlight-content {
+            font-size: 15px;
+            color: #B0B0B0;
+            line-height: 1.7;
+        }
+        
+        .principle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+        
+        .principle-item {
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #333333;
+        }
+        
+        .principle-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+        
+        .principle-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+        }
+        
+        .principle-desc {
+            font-size: 14px;
+            color: #999999;
+            line-height: 1.5;
+        }
+        
+        strong {
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+        
+        .divider {
+            height: 1px;
+            background: #333333;
+            margin: 32px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid #333333;
+            color: #666666;
+            font-size: 14px;
+        }
+        
+        .no-collect {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+            border: 2px solid #FFFFFF;
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px 0;
+            text-align: center;
+        }
+        
+        .no-collect-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+        
+        .no-collect-desc {
+            font-size: 16px;
+            color: #B0B0B0;
+            line-height: 1.7;
+        }
+        
+        .permission-card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 16px 0;
+            border: 1px solid #333333;
+        }
+        
+        .permission-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .permission-icon {
+            font-size: 24px;
+        }
+        
+        .permission-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+        
+        .permission-desc {
+            font-size: 15px;
+            color: #B0B0B0;
+            line-height: 1.6;
+            margin-left: 36px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">🔒</div>
+            <h1>隐私政策</h1>
+            <p class="last-updated">最后更新日期：2026年1月5日</p>
+        </div>
+        
+        <div class="no-collect">
+            <div class="no-collect-title">我们不收集您的任何数据</div>
+            <parameter name="no-collect-desc">
+                LiveToFrame 致力于保护您的隐私。<br>
+                我们<strong>不会收集、存储、上传或分享</strong>您的任何照片、视频或个人信息。<br>
+                所有的照片处理都在您的设备本地完成。
+            </div>
+        </div>
+        
+        <h2>隐私原则</h2>
+        <div class="principle-grid">
+            <div class="principle-item">
+                <div class="principle-icon">📱</div>
+                <div class="principle-title">本地处理</div>
+                <div class="principle-desc">所有操作在您的设备上完成</div>
+            </div>
+            <div class="principle-item">
+                <div class="principle-icon">🚫</div>
+                <div class="principle-title">零收集</div>
+                <div class="principle-desc">不收集任何个人信息</div>
+            </div>
+            <div class="principle-item">
+                <div class="principle-icon">🔐</div>
+                <div class="principle-title">安全可靠</div>
+                <div class="principle-desc">您的数据永远属于您</div>
+            </div>
+            <div class="principle-item">
+                <div class="principle-icon">👁️</div>
+                <div class="principle-title">透明公开</div>
+                <div class="principle-desc">清晰告知权限用途</div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>权限说明</h2>
+        <p>LiveToFrame 需要以下权限来提供核心功能。我们承诺这些权限<strong>仅用于应用的正常运行</strong>，不会用于任何其他目的。</p>
+        
+        <div class="permission-card">
+            <div class="permission-header">
+                <div class="permission-icon">📸</div>
+                <div class="permission-name">相册访问权限</div>
+            </div>
+            <div class="permission-desc">
+                <strong>用途：</strong>读取您的 Live Photo，以便进行转换和处理。<br>
+                <strong>范围：</strong>仅访问您选择的照片，不会扫描或访问其他照片。<br>
+                <strong>保证：</strong>读取的照片仅在设备本地处理，不会上传或保存。
+            </div>
+        </div>
+        
+        <div class="permission-card">
+            <div class="permission-header">
+                <div class="permission-icon">💾</div>
+                <div class="permission-name">相册保存权限</div>
+            </div>
+            <div class="permission-desc">
+                <strong>用途：</strong>将处理后的视频、图片和 GIF 保存到您的相册。<br>
+                <strong>范围：</strong>仅保存您主动导出的文件。<br>
+                <strong>控制：</strong>您可以在设置中关闭"自动保存"选项。
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <div class="highlight-title">
+                <span>💡</span>
+                <span>权限可选</span>
+            </div>
+            <div class="highlight-content">
+                如果您拒绝授予相册权限，应用将无法读取您的 Live Photo。但您可以随时在系统设置中修改权限设置。我们<strong>不会强制要求</strong>任何权限。
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>数据处理</h2>
+        
+        <h3>我们如何处理您的照片</h3>
+        <ol>
+            <li><strong>读取</strong>：当您选择一张 Live Photo 时，应用会从相册读取该文件</li>
+            <li><strong>处理</strong>：在您的设备上进行格式转换、帧提取等操作</li>
+            <li><strong>保存</strong>：将处理结果保存到设备临时文件夹或相册</li>
+            <li><strong>清理</strong>：自动清理临时文件，不留痕迹</li>
+        </ol>
+        
+        <p><strong>整个过程完全在本地进行</strong>，不需要网络连接，您的照片不会离开您的设备。</p>
+        
+        <h3>我们不会做什么</h3>
+        <ul>
+            <li>❌ 不会上传您的照片到服务器</li>
+            <li>❌ 不会收集您的照片元数据</li>
+            <li>❌ 不会分析或识别照片内容</li>
+            <li>❌ 不会与第三方共享任何信息</li>
+            <li>❌ 不会追踪您的使用行为</li>
+            <li>❌ 不会投放个性化广告</li>
+        </ul>
+        
+        <div class="divider"></div>
+        
+        <h2>第三方服务</h2>
+        <p>LiveToFrame <strong>不使用任何第三方分析、统计或广告服务</strong>。应用不包含任何第三方 SDK（除了开源的 SnapKit 用于界面布局）。</p>
+        
+        <div class="highlight-box">
+            <div class="highlight-title">
+                <span>✅</span>
+                <span>纯净无广告</span>
+            </div>
+            <div class="highlight-content">
+                LiveToFrame 完全免费，无内购，无广告。我们不会通过您的数据盈利，也不会向第三方出售任何信息。
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>儿童隐私</h2>
+        <p>LiveToFrame 适合所有年龄段的用户使用。我们不会主动收集 13 岁以下儿童的任何信息。实际上，我们不会收集<strong>任何用户</strong>的信息，无论年龄。</p>
+        
+        <div class="divider"></div>
+        
+        <h2>数据安全</h2>
+        <p>虽然我们不收集任何数据，但我们仍然采取以下措施确保应用的安全性：</p>
+        
+        <ul>
+            <li>使用 iOS 系统提供的安全框架</li>
+            <li>及时修复安全漏洞</li>
+            <li>定期更新依赖库</li>
+            <li>代码经过严格测试</li>
+        </ul>
+        
+        <div class="divider"></div>
+        
+        <h2>您的权利</h2>
+        <p>由于我们不收集任何数据，您无需担心数据删除或访问请求。但您始终拥有以下权利：</p>
+        
+        <ul>
+            <li><strong>控制权限</strong>：随时在系统设置中修改或撤销权限</li>
+            <li><strong>删除应用</strong>：卸载应用后，所有临时文件将被自动清理</li>
+            <li><strong>离线使用</strong>：应用可以完全离线使用，无需网络连接</li>
+        </ul>
+        
+        <div class="divider"></div>
+        
+        <h2>政策更新</h2>
+        <p>我们可能会不时更新本隐私政策，以反映应用的改进或法律要求的变化。任何重要更改都会在应用内或通过其他适当方式通知您。</p>
+        
+        <p>政策更新后，继续使用应用即表示您接受更新后的政策。我们建议您定期查看本政策。</p>
+        
+        <div class="divider"></div>
+        
+        <h2>联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问或建议，欢迎通过以下方式联系我们：</p>
+        
+        <div class="highlight-box">
+            <div class="highlight-content" style="text-align: left;">
+                <p><strong>📧 电子邮件：</strong>zhyl1881@163.com</p>
+                <p><strong>💬 反馈邮箱：</strong>zhyl1881@163.com</p>
+                <p><strong>🌐 官方网站：</strong>https://mason-v1.github.io/Apps/</p>
+            </div>
+        </div>
+        
+        <p>我们会在收到您的反馈后尽快回复（通常在 48 小时内）。</p>
+        
+        <div class="divider"></div>
+        
+        <h2>适用法律</h2>
+        <p>本隐私政策受中华人民共和国法律管辖。如果您从中国境外访问或使用应用，请遵守当地法律法规。</p>
+        
+        <div class="divider"></div>
+        
+        <div class="highlight-box" style="background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);">
+            <div class="highlight-title">
+                <span>🛡️</span>
+                <span>我们的承诺</span>
+            </div>
+            <div class="highlight-content">
+                <strong>您的隐私是我们的首要任务。</strong><br><br>
+                我们承诺永远不会收集、存储或分享您的任何个人信息和照片。<br>
+                所有的照片处理都在您的设备上本地完成，您的数据永远只属于您自己。<br><br>
+                这不仅是我们的政策，更是我们的原则。
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 LiveToFrame. All rights reserved.</p>
+            <p style="margin-top: 8px;">本隐私政策最后更新于 2026年1月5日</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
